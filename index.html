@@ -1,272 +1,589 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Jarred Opatz</title>
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Jarred Opatz</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-gray-50 text-gray-800 antialiased">
-  <!-- Navigation -->
-  <header class="bg-white shadow-md">
-    <div class="container mx-auto flex justify-between items-center p-6">
-      <h1 class="text-xl font-bold">Jarred Opatz</h1>
-      <nav>
-        <ul class="flex space-x-6">
-          <li><a href="#about" class="hover:text-blue-600">About</a></li>
-          <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
-          <li><a href="#education" class="hover:text-blue-600">Education</a></li>
-          <li><a href="#gallery" class="hover:text-blue-600">Media Gallery</a></li>
-          <li><a href="#awards" class="hover:text-blue-600">Awards</a></li>
-          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
-        </ul>
-      </nav>
+    <!-- Navigation -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-6">
+            <h1 class="text-xl font-bold">Jarred Opatz</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                    <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
+                    <li><a href="#education" class="hover:text-blue-600">Education</a></li>
+                    <li><a href="#gallery" class="hover:text-blue-600">Media Gallery</a></li>
+                    <li><a href="#awards" class="hover:text-blue-600">Awards</a></li>
+                    <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-4">Hello, I’m Jarred Opatz</h2>
+            <p class="text-lg max-w-2xl mx-auto"></p>I have been a writer and editor for more than 30 years in
+            newspapers and marketing, which I have fully enjoyed.
+            <p class="text-lg max-w-2xl mx-auto"></p>For almost 30 years I have lived in Wooster, Ohio, where I have
+            worked on my church’s bulletin as a part-time job since 2023.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto max-w-3xl">
+            <h3 class="text-3xl font-bold mb-4">About Me</h3>
+            <p class="mb-4">I have been the content writer and parent portal coordinator the past three years in the
+                marketing department at Ashland University and the bulletin editor for my church, St. Mary of the
+                Immaculate Conception Church in Wooster, Ohio, the past two years.</p>
+            <p class="mb-4">Before working at AU, I worked in the newspaper industry for 30 years. After graduating from
+                the University of St. Thomas in St. Paul, Minnesota, with a bachelor’s degree in journalism, I worked
+                for four years in Red Wing, Minnesota, at the Red Wing Republican Eagle as a sports writer for two years
+                and then the sports editor for another two years.
+                From there, I moved to Ashland, Ohio, to become the sports editor for the Ashland Times-Gazette, where I
+                had that position for five years, followed by special sections editor/copy editor/ feature writer for 14
+                years and then news editor for six years.
+                When the T-G combined with the Wooster Daily Record a year into my job as Ashland’s news editor and I
+                also became the DR’s news editor.
+            </p><br>
+            <h4 class="text-2xl font-semibold mb-2">Skills</h4>
+            <ul class="list-disc list-inside mb-4">
+                <li>Excellent writing, editing and communication skills in both news and marketing.</li>
+                <li>Successful at designing newspaper layouts with several design programs and Word Publisher.</li>
+                <li>Great at developing relationships with sources and managing social media platforms.</li>
+                <li>Proficient in Facebook, Instagram, X, Campus ESP and ZeeMee platforms.</li>
+                <li>Strong promotion skills: marketing stories, news releases, promotional materials, and project
+                    management in Workzone.</li>
+            </ul>
+            <!-- Optional photo -->
+            <!-- <img src="images\Screenshot_20250422_100412_Gallery.jpg" alt="Jarred Opatz" class="w-48 h-48 rounded-full mx-auto" /> -->
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="bg-gray-100 py-16">
+        <div class="container mx-auto max-w-4xl">
+            <h3 class="text-3xl font-bold mb-8">Awards & Recognition</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                    <img src="awards/1997award.jpg" alt="1997 Best Sports Feature Story"
+                        class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
+                        data-full="awards/1997award.jpg" />
+                    <h4 class="font-semibold text-xl mb-2">1996</h4>
+                    <p class="text-sm text-blue-600 font-semibold mb-1">Minnesota Newspaper Association</p>
+                    <p class="text-gray-700 italic">Second Place Best Sports Feature Story</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                    <img src="awards/2000award.jpg" alt="2000 Best Sports Column"
+                        class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
+                        data-full="awards/2000award.jpg" />
+                    <h4 class="font-semibold text-xl mb-2">2000</h4>
+                    <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
+                    <p class="text-gray-700 italic">Second Place Best Sports Column</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                    <img src="awards/2003award.jpg" alt="2003 Best Business Writer"
+                        class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
+                        data-full="awards/2003award.jpg" />
+                    <h4 class="font-semibold text-xl mb-2">2003</h4>
+                    <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
+                    <p class="text-gray-700 italic">First Place Best Business Writer</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                    <img src="awards/2004award.jpg" alt="2004 Best Editorial Writer"
+                        class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
+                        data-full="awards/2004award.jpg" />
+                    <h4 class="font-semibold text-xl mb-2">2004</h4>
+                    <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
+                    <p class="text-gray-700 italic">Third Place Best Editorial Writer</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                    <img src="awards/2005award.jpg" alt="2005 Best Editorial Writer"
+                        class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
+                        data-full="awards/2005award.jpg" />
+                    <h4 class="font-semibold text-xl mb-2">2005</h4>
+                    <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
+                    <p class="text-gray-700 italic">Third Place Best Editorial Writer</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                    <img src="awards/2011award.jpg" alt="2011 Friend of Farm Bureau"
+                        class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
+                        data-full="awards/2011award.jpg" />
+                    <h4 class="font-semibold text-xl mb-2">2011</h4>
+                    <p class="text-sm text-blue-600 font-semibold mb-1">Ashland County Farm Bureau</p>
+                    <p class="text-gray-700 italic">Friend of Farm Bureau</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                    <img src="awards/2012award.jpg" alt="2012 Best Page One Layout"
+                        class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
+                        data-full="awards/2012award.jpg" />
+                    <h4 class="font-semibold text-xl mb-2">2012</h4>
+                    <p class="text-sm text-blue-600 font-semibold mb-1">Ohio Associated Press Media Editors</p>
+                    <p class="text-gray-700 italic">First Place Best Page One Layout</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Image Enlargement -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-20">
+        <div class="relative">
+            <button id="modal-close" class="absolute top-2 right-2 text-white text-2xl">&times;</button>
+            <img id="modal-img" src="" alt="Enlarged Award" class="max-w-full max-h-screen rounded-lg shadow-lg" />
+        </div>
     </div>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="bg-blue-600 text-white py-20">
-    <div class="container mx-auto text-center">
-      <h2 class="text-4xl font-semibold mb-4">Welcome!</h2>
-      <p class="text-lg max-w-2xl mx-auto">I’m Jarred Opatz, a seasoned editor and public relations professional with a passion for journalism.</p>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="py-16">
-    <div class="container mx-auto max-w-3xl">
-      <h3 class="text-3xl font-bold mb-4">About Me</h3>
-      <p class="mb-4">
-        I have 30 years of journalism experience in the newspaper industry, starting in sports and moving to news and editing. 
-        My first full-time job in the business was with the Red Wing Republican Eagle in Minnesota. I have worked at the Ashland Times-Gazette in Ohio since 1996 and both the T-G and The Daily Record in Wooster, Ohio since 2016.
-        Throughout my 30-year career, I have developed strong writing, reporting and editing skills, particularly with feature writing. I also have won several awards for articles I have written.
-      </p>
-      <!-- Optional photo -->
-      <!-- <img src="images\Screenshot_20250422_100412_Gallery.jpg" alt="Jarred Opatz" class="w-48 h-48 rounded-full mx-auto" /> -->
-    </div>
-  </section>
-
-  <!-- Experience Section -->
-  <section id="experience" class="bg-gray-100 py-16">
-    <div class="container mx-auto max-w-4xl">
-      <h3 class="text-3xl font-bold mb-8">Experience</h3>
-      <div class="space-y-8">
-
-        <div>
-          <h4 class="text-2xl font-semibold">Content Writer</h4>
-          <p class="text-sm text-gray-600">Ashland University &bull; August 2022 – May 2025</p>
-          <ul class="list-disc list-inside mt-2">
-            <li>[Responsibility or achievement]</li>
-            <li>[Responsibility or achievement]</li>
-          </ul>
+    <!-- Education Section -->
+    <section id="education" class="py-16">
+        <div class="container mx-auto max-w-3xl">
+            <h3 class="text-3xl font-bold mb-4">Education</h3>
+            <div>
+                <p class="font-semibold">Bachelor of Arts - BA, Journalism</p>
+                <p class="text-sm text-gray-600">University of St. Thomas &bull; 1992</p>
+            </div><br>
+            <p>One of my columns as a sports writer and sports editor for the University of St. Thomas weekly newspaper,
+                The Aquin:</p>
+            <br><img src="articles\20250517_100352.jpg" alt="small-town sports article" class="rounded-lg shadow-md" />
         </div>
+    </section>
 
-        <div>
-          <h4 class="text-2xl font-semibold">News Editor</h4>
-          <p class="text-sm text-gray-600">Wooster Daily Record &bull; May 2016 – August 2022</p>
-          <ul class="list-disc list-inside mt-2">
-            <li>Edit and assign stories to reporters and correspondents. Also writing stories sometimes to help with a reduction in staff.</li>
-            <li>[Responsibility or achievement]</li>
-          </ul>
+    <!-- Career Section -->
+    <section id="experience" class="bg-gray-100 py-16">
+        <div class="container mx-auto max-w-4xl">
+            <h3 class="text-3xl font-bold mb-8">Career</h3>
+            <div class="space-y-12">
+
+                <!-- Red Wing Republican Eagle -->
+                <div>
+                    <h4 class="text-2xl font-bold">Red Wing Republican Eagle</h4>
+                    <div class="ml-4 space-y-8 mt-4">
+
+                        <div>
+                            <h5 class="text-xl font-semibold">Sports Writer</h5>
+                            <p class="text-sm text-gray-600">May 1992 – May 1994</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>Wrote sports stories and helped design pages.</li>
+                                <li>Two of my articles that help me earn second place in sports feature writing in a
+                                    Minnesota newspaper contest while at the Red Wing Republican Eagle:</li>
+                                <br><img src="articles\20250517_095344.jpg" alt="Benny Ricardo article"
+                                    class="rounded-lg shadow-md" />
+                                <br><img src="articles\20250517_095435.jpg" alt="Steve Furlong article"
+                                    class="rounded-lg shadow-md" />
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h5 class="text-xl font-semibold">Sports Editor</h5>
+                            <p class="text-sm text-gray-600">May 1994 – May 1996</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>Planned sports coverage while supervising one full-time sports writer and a handful
+                                    of employees who took calls from coaches for results of local games, while also
+                                    reporting/writing, editing and designing pages for the sports section.</li>
+                                <li>Minnesota Newspaper Association Better Newspaper Contest: Best Sports Feature Story,
+                                    Second Place, 1996</li>
+                                <li>One of several series of stories I wrote while covering sports for the Red Wing
+                                    Republican Eagle, this one about married coaches:</li>
+                                <br><img src="articles\20250517_095558.jpg" alt="front page"
+                                    class="rounded-lg shadow-md" />
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Ashland Times Gazette -->
+                <div>
+                    <h4 class="text-2xl font-bold">Ashland Times Gazette</h4>
+                    <div class="ml-4 space-y-8 mt-4">
+
+                        <div>
+                            <h5 class="text-xl font-semibold">Sports Editor</h5>
+                            <p class="text-sm text-gray-600">May 1996 – May 2001</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>Planned sports coverage while also reporting/writing, editing and designing pages
+                                    for the T-G sports section. Assigned stories to two full-time sports writers and a
+                                    handful of correspondents.</li>
+                                <li>Associated Press Society of Ohio: Best Sports Column, Second Place, 2000</li>
+                                <li>[Responsibility or achievement]</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h5 class="text-xl font-semibold">Special Sections Editor / Features Writer</h5>
+                            <p class="text-sm text-gray-600">May 2001 – May 2015</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>While planning and assigning stories for special sections, also did copy editing,
+                                    page design and reporting/writing. My articles included features, agriculture topics
+                                    and a variety of other subjects.</li>
+                                <li>Associated Press Society of Ohio: Best Business Writer, First Place, 2003</li>
+                                <li>Associated Press Society of Ohio: Best Editorial Writer, Third Place, 2004 &amp;
+                                    2005</li>
+                                <li>Ashland County Farm Bureau: Friend of Farm Bureau, 2011</li>
+                                <li>Ohio Associated Press Media Editors: Best Page One Layout: First Place, 2012</li>
+                                <li>[Responsibility or achievement]</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h5 class="text-xl font-semibold">News Editor</h5>
+                            <p class="text-sm text-gray-600">May 2015 – August 2022</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>Edit and assign stories to reporters and correspondents. Also writing stories
+                                    sometimes to help with a reduction in staff.</li>
+                                <li>[Responsibility or achievement]</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Wooster Daily Record -->
+                <div>
+                    <h4 class="text-2xl font-bold">Wooster Daily Record</h4>
+                    <div class="ml-4 space-y-8 mt-4">
+                        <div>
+                            <h5 class="text-xl font-semibold">News Editor</h5>
+                            <p class="text-sm text-gray-600">May 2016 – August 2022</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>Edit and assign stories to reporters and correspondents. Also writing stories
+                                    sometimes to help with a reduction in staff.</li>
+                            </ul>
+                            <!-- Sample story links -->
+                            <br>
+                            <li>
+                                Links to several of the stories I wrote during my six years with the Wooster Daily
+                                Record:
+                                <ul class="list-disc list-inside ml-4 mt-1">
+                                    <li>
+                                        <a href="https://www.the-daily-record.com/story/news/2022/02/15/uhler-family-has-long-history-running-wooster-dairy-queen/6750693001/"
+                                            class="text-blue-600 hover:underline">
+                                            Uhler family has long history running Wooster Dairy Queen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.the-daily-record.com/story/news/2022/06/15/amish-life-doc-holmes-county-native-shares-his-story/7501469001/"
+                                            class="text-blue-600 hover:underline">
+                                            Amish life doc, Holmes County native shares his story
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.the-daily-record.com/story/news/2022/02/02/joyful-cafe-opens-second-location-western-reserve-group-campus/9209222002/"
+                                            class="text-blue-600 hover:underline">
+                                            Joyful Café opens second location at Western Reserve Group campus
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.the-daily-record.com/story/news/2022/07/01/wooster-couple-happy-have-found-love-second-time-around/7748296001/"
+                                            class="text-blue-600 hover:underline">
+                                            Wooster couple happy to have found love a second time around
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.the-daily-record.com/story/news/2022/06/01/cigar-vault-different-kind-business-opening-wooster/9765235002/"
+                                            class="text-blue-600 hover:underline">
+                                            Cigar Vault: a different kind of business opening in Wooster
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.the-daily-record.com/story/news/2022/05/14/woosters-friendly-wholesale-has-new-owners-growing-business/9719426002/"
+                                            class="text-blue-600 hover:underline">
+                                            Wooster’s Friendly Wholesale has new owners, growing business
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Special section story -->
+                            <br>
+                            <li>
+                                Link to one of the special‑section stories I coordinated:
+                                <ul class="list-disc list-inside ml-4 mt-1">
+                                    <li>
+                                        <a href="https://www.the-daily-record.com/story/special/2021/03/26/volunteers-wayne-holmes-counties-passionate-volunteering/4672152001/"
+                                            class="text-blue-600 hover:underline">
+                                            Volunteers across Wayne &amp; Holmes counties show passionate commitment to
+                                            serving others
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ashland University -->
+                <div>
+                    <h4 class="text-2xl font-bold">Ashland University</h4>
+                    <div class="ml-4 space-y-8 mt-4">
+                        <div>
+                            <h5 class="text-xl font-semibold">Content Writer</h5>
+                            <p class="text-sm text-gray-600">August 2022 – May 2025</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>Wrote stories about students, faculty, staff and alumni to market and promote the
+                                    university. Edited marketing copy and managed the family portal (Campus ESP) and a
+                                    student social media platform (ZeeMee).</li>
+
+                                <!-- Student stories -->
+                                <br>
+                                <li>
+                                    Links to some of the student stories I wrote:
+                                    <ul class="list-disc list-inside ml-4 mt-1">
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/students-bring-weeks-months-and-sometimes-years-preparation-their-urca-presentations"
+                                                class="text-blue-600 hover:underline">
+                                                Students bring weeks, months and sometimes years’ preparation to their
+                                                URCA presentations
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/logan-alexander-has-done-it-all-ashland-university"
+                                                class="text-blue-600 hover:underline">
+                                                Logan Alexander has done it all at Ashland University
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/dorm-dudes-breaks-sports-memorabilia-selling-business-really-takes-au-students"
+                                                class="text-blue-600 hover:underline">
+                                                “Dorm Dudes” breaks into sports‑memorabilia selling business—here’s how
+                                                AU students made it work
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/dorm-dudes-name-becoming-more-and-more-recognized-beyond-au"
+                                                class="text-blue-600 hover:underline">
+                                                How the Dorm Dudes name is becoming recognized beyond AU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/idealabs-contest-aus-version-shark-tank"
+                                                class="text-blue-600 hover:underline">
+                                                Idealabs contest: AU’s version of “Shark Tank”
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Alumni stories -->
+                                <br>
+                                <li>
+                                    Links to some of the alumni stories I wrote:
+                                    <ul class="list-disc list-inside ml-4 mt-1">
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/ashland-grad-greg-gorrell-book-signing-campus-april-23-vietnam-survival-there-home"
+                                                class="text-blue-600 hover:underline">
+                                                Ashland grad Greg Gorrell book signing on campus—his Vietnam survival
+                                                and “there’s no place like home”
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/alumni-restore-tombstones-founding-fathers-their-fraternity-phi-delta-theta"
+                                                class="text-blue-600 hover:underline">
+                                                Alumni restore tombstones of founding fathers of their fraternity, Phi
+                                                Delta Theta
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/brotherhood-formed-college-continues-jdm-grads-camera-operators-covering-ohio-sports"
+                                                class="text-blue-600 hover:underline">
+                                                Brotherhood formed in college continues—JDM grads as camera operators
+                                                covering Ohio sports
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/au-football-teammates-continue-friendship-business-partnership"
+                                                class="text-blue-600 hover:underline">
+                                                AU football teammates continue friendship and business partnership
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/love-genealogy-leads-au-grad-allison-lawrentz-barnhart-having-book-published"
+                                                class="text-blue-600 hover:underline">
+                                                Love of genealogy leads AU grad Allison Lawrentz Barnhart to have book
+                                                published
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/while-competing-army-trials-jeremy-ditlevson-has-unexpected-reunion-fellow-au-grad"
+                                                class="text-blue-600 hover:underline">
+                                                While competing in Army trials, Jeremy Ditlevson has unexpected reunion
+                                                with fellow AU grad
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/au-grad-and-her-mother-open-vintage-clothes-store"
+                                                class="text-blue-600 hover:underline">
+                                                AU grad and her mother open a vintage clothes store
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Professors & staff stories -->
+                                <br>
+                                <li>
+                                    Links to some of the professor &amp; staff stories I wrote:
+                                    <ul class="list-disc list-inside ml-4 mt-1">
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/new-safety-services-director-kim-mager-busy-job-and-promotion-her-book"
+                                                class="text-blue-600 hover:underline">
+                                                New Safety Services Director Kim Mager—busy job, promotion &amp; her
+                                                book
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/jones-happy-be-back-ashland-university-teaching-and-helping-wrestling-team"
+                                                class="text-blue-600 hover:underline">
+                                                Jones happy to be back at Ashland University—teaching and helping the
+                                                wrestling team
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/deer-exclosures-ashland-university-preserves-collaborative-project"
+                                                class="text-blue-600 hover:underline">
+                                                Deer exclosures: Ashland University preserves a collaborative ecology
+                                                project
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/new-assistant-psychology-professor-michaela-quinteros-love-au-hallmark-movie"
+                                                class="text-blue-600 hover:underline">
+                                                New Assistant Psychology Professor Michaela Quinteros—loves AU &amp;
+                                                Hallmark movies
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- General stories -->
+                                <br>
+                                <li>
+                                    Links to some of the general AU stories I wrote:
+                                    <ul class="list-disc list-inside ml-4 mt-1">
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/numbers-25-things-about-eagle-investment-group-its-25th-year"
+                                                class="text-blue-600 hover:underline">
+                                                Numbers: 25 things about Eagle Investment Group in its 25th year
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ashland.edu/news/au-mourns-passing-lucille-ford-phd-former-professor-dean-provost-and-board-member"
+                                                class="text-blue-600 hover:underline">
+                                                AU mourns passing of Lucille Ford, PhD—former professor, dean, provost
+                                                and board member
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <br>
+                                <li>Some of the many posts I created for AU’s parent portal (Campus ESP) and student
+                                    social media platforms I coordinated:</li>
+                                <br><img src="articles\Campus ESP Therapy animals.png" alt="au post example"
+                                    class="rounded-lg shadow-md" />
+                                <br><img src="articles\Screenshot_20250505_152240_ZeeMee.jpg" alt="au post example"
+                                    class="rounded-lg shadow-md" />
+                                <br><img src="articles\Screenshot_20250506_110309_Chrome.jpg" alt="au post example"
+                                    class="rounded-lg shadow-md" />
+                                <br><img src="articles\Screenshot_20250506_162604_ZeeMee.jpg" alt="au post example"
+                                    class="rounded-lg shadow-md" />
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- St. Mary of the Immaculate Conception Catholic Church -->
+                <div>
+                    <h4 class="text-2xl font-bold">St. Mary of the Immaculate Conception Catholic Church</h4>
+                    <div class="ml-4 space-y-8 mt-4">
+                        <div>
+                            <h5 class="text-xl font-semibold">Bulletin Writer / Editor</h5>
+                            <p class="text-sm text-gray-600">(Month) 2023 – Present</p>
+                            <ul class="list-disc list-inside mt-2">
+                                <li>Create the church's weekly bulletin and handle much of its communication through
+                                    email, text and Facebook.</li>
+                                <li>A link to the most recent bulletins: <a href="https://tinyurl.com/22evhw49"
+                                        class="hover:underline">View Bulletins</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+            </div>
         </div>
-
-        <div>
-          <h4 class="text-2xl font-semibold">News Editor</h4>
-          <p class="text-sm text-gray-600">Ashland Times Gazette &bull; May 2015 – August 2022</p>
-          <ul class="list-disc list-inside mt-2">
-            <li>Edit and assign stories to reporters and correspondents. Also writing stories sometimes to help with a reduction in staff.</li>
-            <li>[Responsibility or achievement]</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="text-2xl font-semibold">Special Sections Editor / Features Writer</h4>
-          <p class="text-sm text-gray-600">Ashland Times Gazette &bull; May 2001 – May 2015</p>
-          <ul class="list-disc list-inside mt-2">
-            <li>While planning and assigning stories for special sections, also did copy editing, page design and reporting/writing. My articles included features, agriculture topics and a variety of other subjects.</li>
-            <li>[Responsibility or achievement]</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="text-2xl font-semibold">Sports Editor</h4>
-          <p class="text-sm text-gray-600">Ashland Times Gazette &bull; May 1996 – May 2001</p>
-          <ul class="list-disc list-inside mt-2">
-            <li>Planned sports coverage while also reporting/writing, editing and designing pages for the T-G sports section. Assigned stories to two full-time sports writers and a handful of correspondents.</li>
-            <li>[Responsibility or achievement]</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="text-2xl font-semibold">Sports Editor</h4>
-          <p class="text-sm text-gray-600">Red Wing Republican Eagle &bull; May 1994 – May 1996</p>
-          <ul class="list-disc list-inside mt-2">
-            <li>Planned sports coverage while supervising one full-time sports writer and a handful of employees who took calls from coaches for results of local games, while also reporting/writing, editing and designing pages for the sports section.</li>
-            <li>[Responsibility or achievement]</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="text-2xl font-semibold">Sports Writer</h4>
-          <p class="text-sm text-gray-600">Red Wing Republican Eagle &bull; May 1992 – May 1994</p>
-          <ul class="list-disc list-inside mt-2">
-            <li>Wrote sports stories and helped design pages.</li>
-            <li>[Responsibility or achievement]</li>
-          </ul>
-        </div>
+    </section>
 
 
-      </div>
-    </div>
-  </section>
-
-  <!-- Awards Section -->
-  <section id="awards" class="bg-gray-100 py-16">
-    <div class="container mx-auto max-w-4xl">
-      <h3 class="text-3xl font-bold mb-8">Awards & Recognition</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-        <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
-          <img src="awards/2003award.jpg"
-               alt="2003 Best Business Writer"
-               class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
-               data-full="awards/2003award.jpg" />
-          <h4 class="font-semibold text-xl mb-2">2003</h4>
-          <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
-          <p class="text-gray-700 italic">First Place Best Business Writer</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
-          <img src="awards/2012award.jpg"
-               alt="2012 Best Page One Layout"
-               class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
-               data-full="awards/2012award.jpg" />
-          <h4 class="font-semibold text-xl mb-2">2012</h4>
-          <p class="text-sm text-blue-600 font-semibold mb-1">Ohio Associated Press Media Editors</p>
-          <p class="text-gray-700 italic">First Place Best Page One Layout</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
-          <img src="awards/2011award.jpg"
-               alt="2011 Friend of Farm Bureau"
-               class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
-               data-full="awards/2011award.jpg" />
-          <h4 class="font-semibold text-xl mb-2">2011</h4>
-          <p class="text-sm text-blue-600 font-semibold mb-1">Ashland County Farm Bureau</p>
-          <p class="text-gray-700 italic">Friend of Farm Bureau</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
-          <img src="awards/1997award.jpg"
-               alt="1997 Best Sports Feature Story"
-               class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
-               data-full="awards/1997award.jpg" />
-          <h4 class="font-semibold text-xl mb-2">1997</h4>
-          <p class="text-sm text-blue-600 font-semibold mb-1">Minnesota Newspaper Association</p>
-          <p class="text-gray-700 italic">Second Place Best Sports Feature Story</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
-          <img src="awards/2000award.jpg"
-               alt="2000 Best Sports Column"
-               class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
-               data-full="awards/2000award.jpg" />
-          <h4 class="font-semibold text-xl mb-2">2000</h4>
-          <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
-          <p class="text-gray-700 italic">Second Place Best Sports Column</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
-          <img src="awards/2004award.jpg"
-               alt="2004 Best Editorial Writer"
-               class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
-               data-full="awards/2004award.jpg" />
-          <h4 class="font-semibold text-xl mb-2">2004</h4>
-          <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
-          <p class="text-gray-700 italic">Third Place Best Editorial Writer</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
-          <img src="awards/2005award.jpg"
-               alt="2005 Best Editorial Writer"
-               class="w-24 h-24 object-contain mb-4 cursor-pointer award-thumb"
-               data-full="awards/2005award.jpg" />
-          <h4 class="font-semibold text-xl mb-2">2005</h4>
-          <p class="text-sm text-blue-600 font-semibold mb-1">Associated Press Society of Ohio</p>
-          <p class="text-gray-700 italic">Third Place Best Editorial Writer</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modal for Image Enlargement -->
-  <div id="modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-20">
-    <div class="relative">
-      <button id="modal-close" class="absolute top-2 right-2 text-white text-2xl">&times;</button>
-      <img id="modal-img" src="" alt="Enlarged Award" class="max-w-full max-h-screen rounded-lg shadow-lg" />
-    </div>
-  </div>
-
-  <!-- Education Section -->
-  <section id="education" class="py-16">
-    <div class="container mx-auto max-w-3xl">
-      <h3 class="text-3xl font-bold mb-4">Education</h3>
-      <div>
-        <p class="font-semibold">Bachelor of Arts - BA, Journalism</p>
-        <p class="text-sm text-gray-600">University of St. Thomas &bull; 1992</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Media Gallery Section -->
+    <!-- Media Gallery Section 
   <section id="gallery" class="bg-white py-16">
     <div class="container mx-auto max-w-4xl">
       <h3 class="text-3xl font-bold mb-8">Media Gallery</h3>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <!-- Repeat image items -->
+
         <div><img src="path/to/image1.jpg" alt="Description" class="rounded-lg shadow-md" /></div>
         <div><img src="path/to/image2.jpg" alt="Description" class="rounded-lg shadow-md" /></div>
         <div><img src="path/to/image3.jpg" alt="Description" class="rounded-lg shadow-md" /></div>
-        <!-- Add more as needed -->
+
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <!-- Contact Section -->
-  <section id="contact" class="bg-blue-600 text-white py-16">
-    <div class="container mx-auto max-w-2xl text-center">
-      <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
-      <p class="mb-4">Feel free to reach out via email or LinkedIn below.</p>
-      <p>Email: <a href="mailto:[email@example.com]" class="underline">[email@example.com]</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/jarred-opatz-759164241/" target="_blank" class="underline">[LinkedIn Profile]</a></p>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto max-w-2xl text-center">
+            <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
+            <p class="mb-4">📧 <a href="mailto:jarredopatz1127@gmail.com"
+                    class="hover:underline">jarredopatz1127@gmail.com</a></p>
+            <p class="mb-4">📞 330-347-3298</p>
+            <p class="mb-4">📍 Wooster, Ohio</p>
+            <p class="mb-4">💻 <a href="https://www.facebook.com/jarred.opatz" target="_blank"
+                    class="hover:underline">Facebook Profile</a></p>
+            <p class="mb-4">💻 <a href="https://www.linkedin.com/in/jarred-opatz-759164241/" target="_blank"
+                    class="hover:underline">LinkedIn Profile</a></p>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-white py-6">
-    <div class="container mx-auto text-center text-gray-600">
-      &copy; 2025 Jarred Opatz. All rights reserved.
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="container mx-auto text-center text-gray-600">
+            &copy; 2025 Jarred Opatz. All rights reserved.
+        </div>
+    </footer>
 
-  <!-- Simple JS for Modal -->
-  <script>
-    document.querySelectorAll('.award-thumb').forEach(img => {
-      img.addEventListener('click', () => {
-        const modal = document.getElementById('modal');
-        const modalImg = document.getElementById('modal-img');
-        modalImg.src = img.dataset.full || img.src;
-        modal.classList.remove('hidden');
-      });
-    });
-    document.getElementById('modal-close').addEventListener('click', () => {
-      document.getElementById('modal').classList.add('hidden');
-    });
-    // Close modal on background click
-    document.getElementById('modal').addEventListener('click', e => {
-      if (e.target.id === 'modal') document.getElementById('modal').classList.add('hidden');
-    });
-  </script>
+    <!-- Simple JS for Modal -->
+    <script>
+        document.querySelectorAll('.award-thumb').forEach(img => {
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                const modalImg = document.getElementById('modal-img');
+                modalImg.src = img.dataset.full || img.src;
+                modal.classList.remove('hidden');
+            });
+        });
+        document.getElementById('modal-close').addEventListener('click', () => {
+            document.getElementById('modal').classList.add('hidden');
+        });
+        // Close modal on background click
+        document.getElementById('modal').addEventListener('click', e => {
+            if (e.target.id === 'modal') document.getElementById('modal').classList.add('hidden');
+        });
+    </script>
 </body>
+
 </html>
